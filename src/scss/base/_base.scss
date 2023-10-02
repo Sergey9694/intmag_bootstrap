@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 320px;
+    background-color: var(--page-bg);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    a {
+        color: var(--text-color);
+    }
+}
+
+/* Bootstrap */
+
+.btn,
+.dropdown-menu,
+.form-control {
+    border-radius: 0;
+}
+
+//убрать синий фокус  и задать свой цвет форме в фокусе
+.form-control:focus {
+    color: var(--text-color);
+    border-color: var(--accent-color);
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: var(--placeholder-color);
+}
+
+.btn-warning {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.btn-outline-warning {
+    border-color: var(--accent-color);
+}
+.btn-outline-warning:hover {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}

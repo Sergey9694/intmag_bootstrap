@@ -1,0 +1,136 @@
+<header class="header">
+    <!-- <div class="container">
+        <div class="header__row">
+            <div class="logo">Logo</div>
+            <button class="mobile-nav-btn">
+                <div class="nav-icon"></div>
+            </button>
+        </div>
+    </div> -->
+
+    <div class="header-top py-1 ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-sm-4">
+                    <div class="header-top-phone d-flex align-items-center h-100">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+79994443322" class="ms-2">+7(999)444-33-22</a>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-none d-sm-block">
+                    <ul class="social-icons d-flex justify-content-center ">
+                        <li>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a
+                            ></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-6 col-sm-4">
+                    <div class="header-top-account d-flex justify-content-end">
+                        <div class="btn-group gap-2">
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-sm dropdown-toggle"
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Account
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Sign In</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Sign Up</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-sm dropdown-toggle"
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    EN
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">RU</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">DE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-middle bg-white py-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <a href="index.html" class="header-logo h1">E-Shop</a>
+                </div>
+
+                <div class="col-6 col-md-4 order-md-2 cart-buttons text-end">
+                    <a href="#" class="btn p-1"><i class="fa-solid fa-heart"></i>
+                        <span class="badge cart-badge text-bg-warning border-light rounded-circle">3</span>
+                    </a>
+                    <button class="btn p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart"><i class="fa-solid fa-cart-shopping"></i>
+                        <span class="badge cart-badge text-bg-warning border-light rounded-circle ">5</span></a>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasCartLabel">Offcanvas</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                          </div>
+                          <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                              Dropdown button
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4 order-md-1 mt-2 mt-md-0">
+                    <form action="">
+                        <div class="input-group ">
+                            <input type="text" class="form-control" name="search" placeholder="Searching..." aria-label="Searching..." aria-describedby="button-search">
+                            <button class="btn btn-outline-warning" type="submit" id="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+@@include('mobile-nav.html')
